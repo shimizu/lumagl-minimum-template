@@ -28,5 +28,9 @@
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "@luma.gl/engine": "^8.5.10",
+    "@luma.gl/webgl": "^8.5.10"
   }
 }
