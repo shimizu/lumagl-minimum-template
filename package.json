@@ -1,0 +1,32 @@
+{
+  "name": "prejs-minimum-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prebuild": "rimraf build",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimizu/prejs-minimum-template"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimizu/prejs-minimum-template/issues"
+  },
+  "homepage": "https://github.com/shimizu/prejs-minimum-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "video.js": "^7.17.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}

@@ -1,0 +1,48 @@
+#namespace h1,
+#namespace h2,
+#namespace h3,
+#namespace h4,
+#namespace h5,
+#namespace h6,
+#namespace p {
+  padding: 0;
+  margin: 0;
+}
+
+#namespace h1 {
+  font-size: 4rem;
+  line-height: 5.6rem; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 4.8rem;
+      line-height: 6.4rem; } }
+
+#namespace h1 span {
+  font-style: italic; }
+
+#namespace h2 {
+  font-size: 1.8rem;
+  line-height: 3.8rem; }
+  @media (min-width: 768px) {
+    #namespace h2 {
+      font-size: 3rem;
+      line-height: 4.8rem; } }
+
+#namespace h3 {
+  font-size: 1.8rem;
+  line-height: 3.8rem; }
+  @media (min-width: 768px) {
+    #namespace h3 {
+      font-size: 3rem;
+      line-height: 4rem; } }
+
+#namespace p {
+    font-feature-settings: "palt";
+    letter-spacing: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,sans-serif;    
+    font-size: 1.3rem;
+    line-height: 2.6rem;}
+  @media (min-width: 768px) {
+    #namespace p {
+      font-size: 1.6rem;
+      line-height: 3rem; } }    
